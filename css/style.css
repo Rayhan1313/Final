@@ -1,0 +1,171 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+  /*
+  baje dekha jayy ...
+  background-image: url('https://media.istockphoto.com/vectors/organic-vegetables-food-banners-healthy-food-engraving-sketch-vintage-vector-id945074832?s=612x612');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    background-color: lightcyan;  */
+
+}
+
+html, body {
+    min-height: 100%;
+}
+
+/* navbar er first div class er kaj kortesi */
+
+/*  .new-1{
+    
+    height: 150px;
+     background-color: rgb(212, 186, 239);   rebeccapurple; */
+  /*  justify-content: center;
+    padding-left: 3;
+    margin-left: 3; 
+ /*   background-image: url('https://i.pinimg.com/originals/c1/44/b2/c144b2f0199342ce46c204c01b89e4fc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}*/
+
+.background{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.border-3 {
+    border-width:3px !important;
+}
+
+
+
+nav{
+  
+    height: 97px;
+    
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* 1st ul navbar */
+.prothom-a{
+  /*  background-color: rgb(212, 186, 239);
+     height: 90px; */
+}
+.site {
+    font-family: Arial;
+    font-size: 20px;
+   }
+
+
+
+
+
+
+
+/* 2nd ul navbar  er li class*/
+
+
+
+
+.aa {
+    
+    height: 90px;
+    text-decoration: underline;
+    background-color: lightgreen;
+    
+    justify-content: space-around;
+   
+
+}
+
+/*prothome ai ccs korchilam ** use kori nai  baad dewa ongso .incase jodi kothaw use korte pari tai rakhsi ....*/
+.second-container{
+    text-decoration: underline;
+    background-color: lightgreen;
+    
+    justify-content: space-around;
+    flex-direction: column-reverse;
+   
+}
+
+
+
+
+
+
+
+
+/*       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+
+*        card er css 3 ta kore row niya 
+
+
+
+
+
+*/
+
+
+#side_nisi{
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: auto;
+}
+
+
+
+
+/*  list class navigation a jegula nisi segulor background a image lagabo  niche >>>>>
+ card er pisone r ekta background disi-----  xD new-1 a jmn ekta diyesilam  ...
+
+---------*/
+
+/* baje dekha jay background a----
+.ggs{
+   
+    background-image: url('https://th.bing.com/th/id/R.4526638263810471a69bde182b46a27b?rik=roeK6FjDfHRY9A&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_324686.png&ehk=2q4GzlivB8MyyjpeKLjw3Kikz992u32LPOBHR13YQ9c%3d&risl=&pid=ImgRaw&r=0');
+}
+
+*/
+
+.aitar_background{
+    background-image: url('../img/index_er_login_background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+footer{
+    height:200px;
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*   ---      print korarar css          **/
+@page
+{
+  size:A4;
+  margin: 0;
+}
+#print-btn
+{
+  display: none;
+  visibility: none;
+}
+

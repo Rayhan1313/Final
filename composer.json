@@ -1,0 +1,9 @@
+{
+    "name": "rayhan/final",
+    "autoload": {
+        "psr-4": {
+            "Rayhan\\Final\\": "src/"
+        }
+    },
+    "require": {}
+}

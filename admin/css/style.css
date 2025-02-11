@@ -1,0 +1,43 @@
+
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+
+  
+
+
+  .background{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+
+}
+
+html, body {
+  min-height: 100%;
+}
+
+nav{
+  
+  height: 97px;
+  
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
